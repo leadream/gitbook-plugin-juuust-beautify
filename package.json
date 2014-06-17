@@ -14,5 +14,6 @@
     "license": "Apache 2",
     "bugs": {
         "url": "https://github.com/poojan/gitbook-plugin-toggle-chapters/issues"
-    }
+    },
+    "author": "Poojan Shrestha <poojans@gmail.com>"
 }
