@@ -1,12 +1,15 @@
-# Toggle Chapters on GitBook
+# Just Beautify your GitBook
 
 ## Install it using:
-
-```$ npm install gitbook-plugin-toggle-chapters```
-
 To use it in your book, add this to book.json:
 ```
 {
-    "plugins": ["toggle-chapters"]
+    "plugins": ["juuust-beautify@git+https://github.com/leadream/gitbook-plugin-juuust-beautify.git"]
 }
 ```
+
+Then run:
+```$ gitbook install```
+
+not published on npm yet
+

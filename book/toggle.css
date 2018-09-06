@@ -1,0 +1,8 @@
+.book .book-summary .chapter .chapter-caret {
+  vertical-align: middle;
+  color: #999;
+}
+.book .book-summary .chapter .chapter-caret.chapter-caret-expanded {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
