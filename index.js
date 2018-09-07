@@ -2,10 +2,11 @@ module.exports = {
   website: {
     assets: "./book",
     js: [
-      "toggle.js"
+      "menus.js"
     ],
     css: [
-      "toggle.css"
+      "content.css",
+      "menus.css"
     ],
     html: {
       "html:start": function() {

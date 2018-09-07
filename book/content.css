@@ -1,0 +1,16 @@
+.book .book-body .markdown-section h1{
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid #E6ECF1;
+}
+.book .book-body .markdown-section h2{
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #E6ECF1;
+}
+.book .book-body .markdown-section h3{
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #E6ECF1;
+}
+.book .book-body .markdown-section hr {
+    margin: 4em 0;
+    background-color: #E6ECF1;
+}

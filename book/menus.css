@@ -1,3 +1,6 @@
+.book .book-summary{
+  background: #F5F7F9;
+}
 .book .book-summary .chapter .chapter-caret {
   vertical-align: middle;
   color: #999;
