@@ -14,3 +14,6 @@
     margin: 4em 0;
     background-color: #E6ECF1;
 }
+.book .book-body .markdown-section a {
+    color: #008cff;
+}
