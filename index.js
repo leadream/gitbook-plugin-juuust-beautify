@@ -30,7 +30,6 @@ module.exports = {
     // For all the hooks, this represent the current generator
 
     "page": function (page) { // before html generation
-        toc(page);
         return page;
     },
 
