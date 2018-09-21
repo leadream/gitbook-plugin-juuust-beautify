@@ -73,5 +73,5 @@ var insertAnchors = function(section) {
 };
 
 module.exports = function(page) {
-    _.forEach(page.sections, insertAnchors);
+    _.forEach(page.content, insertAnchors);
 };

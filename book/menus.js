@@ -8,7 +8,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
       var $chapterLink = $(this).children('a');
       var $children = $chapter.children('ul.articles');
       if ($children.length > 0) {
-        $chapterLink.prepend(chapterCaret);
+        $chapterLink.append(chapterCaret);
       }
     });
     $('li.chapter svg').click(function(e){
