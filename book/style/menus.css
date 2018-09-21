@@ -7,6 +7,7 @@
   border-left: 1px solid #E6ECF1;
   transition: 0.2s background;
   -webkit-transition: 0.2s background;
+  color: #67747E;
 }
 .book .book-summary .chapter a:hover{
   text-decoration: none;
