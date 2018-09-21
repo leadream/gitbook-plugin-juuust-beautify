@@ -1,6 +1,17 @@
 .book .book-summary{
   background: #F5F7F9;
 }
+.book .book-summary .chapter a{
+  display: flex;
+  align-items: center;
+}
+.book .book-summary .chapter a:hover{
+  text-decoration: none;
+  background: #E6ECF1;
+}
+.book .book-summary .chapter a b{
+  flex: 1;
+}
 .book .book-summary .chapter .chapter-caret {
   vertical-align: middle;
   color: #999;

@@ -9,7 +9,7 @@ require(["gitbook", "jQuery"], function(gitbook, $) {
       var $children = $chapter.children('ul.articles');
       if ($children.length > 0) {
         var text = $chapterLink.text()
-        $chapterLink.html('<span>' + text + '</span>')
+        $chapterLink.html('<b>' + text + '</b>')
         $chapterLink.append(chapterCaret);
       }
     });
