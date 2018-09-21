@@ -1,19 +1,19 @@
 {
-    "name": "gitbook-plugin-juuust-beautify",
+    "name": "gitbook-plugin-theme-juuust",
     "description": "Just Beautify your GitBook",
     "main": "index.js",
     "version": "0.0.4",
     "engines": {
         "gitbook": "*"
     },
-    "homepage": "https://github.com/leadream/gitbook-plugin-juuust-beautify",
+    "homepage": "https://github.com/leadream/gitbook-plugin-theme-juuust",
     "repository": {
         "type": "git",
-        "url": "https://github.com/leadream/gitbook-plugin-juuust-beautify.git"
+        "url": "https://github.com/leadream/gitbook-plugin-theme-juuust.git"
     },
     "license": "Apache 2",
     "bugs": {
-        "url": "https://github.com/leadream/gitbook-plugin-juuust-beautify/issues"
+        "url": "https://github.com/leadream/gitbook-plugin-theme-juuust/issues"
     },
     "author": "Jun <leadream4@gmail.com>"
 }
