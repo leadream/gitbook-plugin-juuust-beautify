@@ -2,7 +2,8 @@ module.exports = {
   website: {
     assets: "./book",
     js: [
-      "menus.js"
+      "menus.js",
+      // "navigation.js"
     ],
     css: [
       "style/content.css",
