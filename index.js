@@ -6,8 +6,7 @@ module.exports = {
     ],
     css: [
       "style/content.css",
-      "style/menus.css",
-      "style/toc.css"
+      "style/menus.css"
     ],
     html: {
       "html:start": function() {
