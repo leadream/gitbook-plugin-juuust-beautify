@@ -1,5 +1,3 @@
-var toc = require('./hooks/toc');
-
 module.exports = {
   website: {
     assets: "./book",
