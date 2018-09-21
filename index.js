@@ -1,3 +1,5 @@
+var toc = require('./hooks/toc');
+
 module.exports = {
   website: {
     assets: "./book",
@@ -5,8 +7,9 @@ module.exports = {
       "menus.js"
     ],
     css: [
-      "content.css",
-      "menus.css"
+      "style/content.css",
+      "style/menus.css",
+      "style/toc.css"
     ],
     html: {
       "html:start": function() {
@@ -25,6 +28,11 @@ module.exports = {
   },
   hooks: {
     // For all the hooks, this represent the current generator
+
+    "page": function (page) { // before html generation
+        toc(page);
+        return page;
+    },
 
     // This is called before the book is generated
     "init": function() {
