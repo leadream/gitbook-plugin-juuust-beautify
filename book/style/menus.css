@@ -4,6 +4,9 @@
 .book .book-summary .chapter a{
   display: flex;
   align-items: center;
+  border-left: 1px solid #E6ECF1;
+  transition: 0.2s background;
+  -webkit-transition: 0.2s background;
 }
 .book .book-summary .chapter a:hover{
   text-decoration: none;
